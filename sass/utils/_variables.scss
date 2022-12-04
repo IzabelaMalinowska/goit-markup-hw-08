@@ -1,0 +1,33 @@
+:root {
+  --black-main: rgba(33, 33, 33, 1);
+  --logo-black: rgba(0, 0, 0, 1);
+  --main-blue: rgba(33, 150, 243, 1);
+  --background-grey: rgba(47, 48, 58, 1);
+  --main-white: rgba(255, 255, 255, 1);
+  --background-white: rgba(245, 244, 250, 1);
+  --main-silver: rgba(117, 117, 117, 1);
+  --font-footer: rgba(255, 255, 255, 0.6);
+  --background-photo: rgba(255, 255, 255, 1);
+  --border-image: rgba(238, 238, 238, 1);
+  --border-header: rgba(236, 236, 236, 1);
+  --icon-socialmedia: rgba(175, 177, 184, 1);
+  --icon-background: rgba(255, 255, 255, 1);
+  --our-customers-border: rgba(175, 177, 184, 1);
+
+  --mobile: 480px;
+  --tablet: 768px;
+  --desktop: 1200px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black-main);
+}
+
+p {
+  color: var(--main-silver);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}

@@ -1,0 +1,106 @@
+.our-customers { 
+  
+    padding: 60px 0;
+
+    @media screen and (min-width: 768px) {
+      padding-bottom: 75px;
+    }
+    @media screen and (min-width: 1200px) {
+      padding: 94px 0;
+    }
+}
+.our-customers__title { 
+  color: var(--black-main);
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+      margin-top: 94px;
+      font-size: 36px;
+      line-height: 1.16;
+}}
+
+.our-customers__content {
+  width: 100%;
+  padding: 0 0 94px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+    }
+}
+.our-customers__link { 
+  display: flex;
+  width: 170px;
+  width: 100%;
+  height: 92px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  transition: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .our-customers:hover {
+  border: 1px solid var(--main-blue);
+}
+.our-customers:focus {
+  border: 1px solid var(--main-blue);
+}
+
+    
+    
+   
+    ///border: 1px solid #afb1b8;
+    //border-radius: 4px;
+    
+
+    //fill: #afb1b8;
+
+    //transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      //background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+
+.our-customers__link:hover svg,
+.our-customers__link:focus svg {
+  cursor: pointer;
+  fill: var(--main-blue);
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-customers__items { 
+  color: rgba(175, 177, 184, 1);
+  border: 1px solid var(--our-customers-border);
+  border-radius: 4px;
+  fill: var(--our-customers-border);
+
+   flex-basis: 210px;
+    @media screen and (min-width: 768px) {
+      flex-basis: 226px;
+    }
+    @media screen and (min-width: 1200px) {
+      flex-basis: 170px;
+    }
+}
+
+.our-customers__icon {
+  width: 106px;
+  height: 60.04px;
+  fill: var(--icon-socialmedia);
+}

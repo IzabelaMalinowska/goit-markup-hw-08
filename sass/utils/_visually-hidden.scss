@@ -1,0 +1,41 @@
+.grid__overlay--hidden {
+  width: 370px;
+  height: 294px;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid__overlay {
+  position: absolute;
+  width: 100%;
+  height: 101%;
+  padding: 49px 45px 49px 24px;
+}
+.grid__overlay-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  text-align: left;
+}
+.grid__overlay--hidden:hover .grid__overlay {
+  transform: translate(0%, -100%);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(33, 150, 243, 0.9);
+  height: 100%;
+  transition-duration: 3s;
+}
+
+.is-hidden {
+  transform: translateX(-100%);
+ 
+}
+ @media screen and (max-width: 1199px){
+    .is-hidden{
+  display: none;
+    
+  }}
+
