@@ -1349,6 +1349,20 @@ position: fixed;*/
     gap: 10px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header-nav-mail {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 10px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
 .header-nav-mail__btn {
   background-color: transparent;
   display: -webkit-inline-box;

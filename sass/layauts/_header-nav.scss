@@ -150,6 +150,13 @@
     flex-wrap: wrap;
     gap: 10px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 100%;
+    display: flex; 
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: flex-end;
+  }
 
   &__btn {
     background-color: transparent;
