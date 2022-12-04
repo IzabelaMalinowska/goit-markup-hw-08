@@ -128,10 +128,6 @@ a:active {
   }
 }
 
-/*.webstudio {
-
-
-}*/
 .footer__webstudio-link {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -1390,10 +1386,21 @@ position: fixed;*/
       -ms-flex-align: center;
           align-items: center;
   height: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .header-content {
     height: 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-content {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
   }
 }
 
