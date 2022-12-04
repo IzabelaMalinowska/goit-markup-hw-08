@@ -19,15 +19,25 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
+  justify-content: center;
+  width: 100%;
   gap: 30px;
   margin-bottom: 94px;
+  @media screen and (min-width: 786px) {
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 .grid__item {
-  flex-basis: calc((100% - 60px) / 3);
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  @media screen and (min-width:786px) {
 }
-
+  @media screen and (min-width:1200px) {flex-basis: calc((100% - 60px) / 3);
+}
+}
 .grid__border-img {
   border-left: 1px solid;
   border-bottom: 1px solid;

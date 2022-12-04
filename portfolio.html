@@ -18,14 +18,89 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header-nav>
+    <header>
+    <div class="mobile-menu__overley" data-menu>
+        <div class="mobile-menu">
+          <button class="mobile-menu__btn" type="button" data-menu-close>
+            <svg class="mobile-menu__icon" width="18.66px" height="18.66px">
+              <use href="./images/icons.svg#icon-close_24px"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu__list-nav">
+            <li class="mobile-menu__item-nav">
+              <a class="mobile-menu__link-nav" href="./index.html"
+                >Agencja</a
+              >
+            </li>
+            <li class="mobile-menu__item-nav">
+              <a class="mobile-menu__link-nav" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-menu__item-nav">
+              <a class="mobile-menu__link-nav" href="">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu__list-contact">
+            <li class="mobile-menu__list-contact-tel">
+              <a class="mobile-menu__link-contact-tel" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+            <li class="mobile-menu__list-contact-mailto">
+              <a class="mobile-menu__link-contact-mailto" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-menu__list-social">
+            <li class="mobile-menu__item-social">
+              <a
+                class="mobile-menu__link-social"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="instagram"
+                >Instagram</a
+              >
+            </li>
+            <li class="mobile-menu__item-social">
+              <a
+                class="mobile-menu__link-social"
+                href="https://twitter.com/"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="twitter"
+                >Twitter</a
+              >
+            </li>
+            <li class="mobile-menu__item-social">
+              <a
+                class="mobile-menu__link-social"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="facebook"
+                >Facebook</a
+              >
+            </li>
+            <li class="mobile-menu__item-social">
+              <a
+                class="mobile-menu__link-social"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="linkedin"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="container">
         <div class="header">
           <nav class="header-content">
-            <a class="webstudio" href="/index.html"
+            <a class="webstudio" href="./index.html"
               ><span class="webstudio__logo">Web</span
-              ><span class="webstudio__logo2">Studio</span></a
-            >
+              ><span class="webstudio__logo2">Studio</span></a>
             <ul class="header-nav">
               <li>
                 <a class="header-nav__link" href="./index.html">Agencja</a>
@@ -35,26 +110,32 @@
                   >Portfolio</a
                 >
               </li>
-              <li><a class="header-nav__link" href="/kontakt">Kontakt</a></li>
+              <li>
+                <a class="header-nav__link" href="/kontakt">Kontakt</a>
+              </li>
             </ul>
+            <button class="header-nav__btn" type="button" data-menu-open>
+            <svg class="header-nav__icon-menu" width="40px" height="40px">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
           </nav>
           <ul class="header-nav-mail">
             <li>
               <a class="header-nav-mail__contact" href="mailto:info@devstudio.com"
                 ><svg class="header-nav-mail__icon" width="16" height="12">
-                  <use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
+                  <use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a
+              >
             </li>
-
             <li>
               <a class="header-nav-mail__contact" href="tel:+48111111111"
                 ><svg class="header-nav-mail__icon" width="10" height="16">
-                  <use href="./images/icons.svg#icon-Vector-tel"></use></svg>+48 111 111 111</a
-              >
+                  <use href="./images/icons.svg#icon-Vector-tel"></use></svg>+48 111 111 111</a>
             </li>
           </ul>
         </div>
       </div>
-    </header-nav>
+    </header>
 
     <main>
       <section>
