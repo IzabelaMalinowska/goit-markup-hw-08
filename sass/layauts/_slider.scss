@@ -143,11 +143,11 @@
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+ @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
   screen and (min-resolution: 192dpi) and (min-width: 1200px),
   screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .slider {
-    background-image: url(../images/sliderimg-desktop@2x.jpg);
+    background-image: url(../images/Sliderimg-desktop@2x.jpg);
   }
 }
 
@@ -166,12 +166,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/sliderimg-desktop.jpg);
+      url(../images/Sliderimg-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 94px;
     margin: 0 auto;
+
   }
+
   .slider-content {
     padding: 200px 0;
     display: flex;
@@ -192,6 +194,7 @@
     text-align: center;
   }
 }
+
 
 
 

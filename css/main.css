@@ -253,6 +253,14 @@ a:active {
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (min-width: 1200px) {
+  .modal {
+    height: 581px;
+    width: 528px;
+    left: 536px;
+    top: 221px;
+  }
+}
 
 /* height: 581px;
  width: 528px;
@@ -274,6 +282,11 @@ a:active {
   margin: 8px 8px 543px 410px;
   position: fixed;
 }
+@media screen and (min-width: 1200px) {
+  .modal-btn {
+    margin: 8px 8px 543px 490px;
+  }
+}
 
 /*cursor: pointer;
 width: 30px;
@@ -291,6 +304,11 @@ position: fixed;*/
   text-align: center;
   color: var(--black-main);
   padding: 40px 40px 30px 40px;
+}
+@media screen and (min-width: 1200px) {
+  .modal-content__title {
+    padding: 40px 40px 0px 40px;
+  }
 }
 
 .modal-content {
@@ -310,10 +328,22 @@ position: fixed;*/
   flex-direction: column;
   align-items: center;*/
 }
+@media screen and (min-width: 1200px) {
+  .modal-content {
+    height: 581px;
+    width: 528px;
+  }
+}
 
 .modal-content__items {
   width: 450px;
   height: 609px;
+}
+@media screen and (min-width: 1200px) {
+  .modal-content__items {
+    margin-top: 12px;
+    width: 450px;
+  }
 }
 
 .modal-content__items .modal-content__icon-person {
@@ -404,6 +434,7 @@ position: fixed;*/
 @media screen and (min-width: 1200px) {
   .modal-content__fieldset {
     width: 448px;
+    margin: 20px 40px 28px 1px;
   }
 }
 
@@ -438,7 +469,7 @@ position: fixed;*/
 }
 @media screen and (min-width: 1200px) {
   .modal-content__button-send {
-    margin: 30px 164px 40px 164px;
+    /*margin: 30px 164px 40px 164px;*/
   }
 }
 
@@ -531,6 +562,7 @@ position: fixed;*/
 @media screen and (min-width: 1200px) {
   .modal-content__fieldset-comment {
     width: 448px;
+    margin: 20px 40px 28px 1px;
   }
 }
 
@@ -559,6 +591,7 @@ position: fixed;*/
     width: 448px;
     height: 24px;
     font-size: 14px;
+    margin: 20px 40px 0px 1px;
   }
 }
 
@@ -2189,7 +2222,7 @@ position: fixed;*/
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .slider {
-    background-image: url(../images/sliderimg-desktop@2x.jpg);
+    background-image: url(../images/Sliderimg-desktop@2x.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 3) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 1200px), screen and (min-resolution: 288dpi) and (min-width: 1200px), screen and (min-resolution: 3dppx) and (min-width: 1200px) {
@@ -2200,8 +2233,8 @@ position: fixed;*/
 @media screen and (min-width: 1200px) {
   .slider {
     background-color: var(--background-grey);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/sliderimg-desktop.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/sliderimg-desktop.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Sliderimg-desktop.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Sliderimg-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 94px;
